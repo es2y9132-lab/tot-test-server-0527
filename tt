@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TOT Test Server - 트레이딩 교육</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background-color: #0d6efd;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      margin: 0.3rem 0 0;
+      font-size: 1rem;
+    }
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+      text-align: center;
+    }
+    .hero img {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .hero h2 {
+      margin-top: 1.5rem;
+      font-size: 1.8rem;
+      color: #0d6efd;
+    }
+    .hero p {
+      max-width: 600px;
+      font-size: 1rem;
+      color: #555;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 0.8rem 1.5rem;
+      background-color: #0d6efd;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background-color: #084298;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 768px) {
+      .hero h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>TOT Test Server</h1>
+    <p>트레이딩 교육 영상 전문</p>
+  </header>
+
+  <section class="hero">
+    <img src="https://images.unsplash.com/photo-1565372918674-029bd0a54e5d?auto=format&fit=crop&w=1000&q=80" alt="트레이딩 이미지">
+    <h2>당신의 트레이딩 실력을 한 단계 높이세요</h2>
+    <p>
+      TOT Test Server는 실전 트레이딩 전략과 분석 기법을 담은 교육 영상을 제공합니다.  
+      초보부터 전문가까지, 누구나 이해할 수 있는 맞춤형 강의로 트레이딩의 세계를 안내합니다.
+    </p>
+    <a href="#" class="btn">문의하기</a>
+  </section>
+
+  <footer>
+    © 2025 TOT Test Server. All rights reserved.
+  </footer>
+
+</body>
+</html>
